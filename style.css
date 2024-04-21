@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 645px;
+  margin: 20px auto;
+}
+.colorDispley{
+  background-color: steelblue;
+  width: 200px;
+  height: 200px;
+}
+.hide {
+  display: none;
+}
+aside{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+button {
+  padding: 8px 60px;
+  border: none;
+  background-color: steelblue;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+article {
+  text-align: center;
+}
+
+.success {
+  background-color: green !important;
+}
+.error {
+  background-color: red !important;
+}
+.Chosen {
+  border: solid gold 2px;
+}
+.coinPlace{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 20px;
+  width: auto;
+  color: white;
+cursor: auto;
+}
